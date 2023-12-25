@@ -43,7 +43,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Machin Learning / Data Science ",
+  subTitle: "Machine Learning / Data Science ",
   skills: [
     "As a dedicated student, I am fervently seeking opportunities to immerse myself in the dynamic field of Data Science. With an insatiable appetite for knowledge and a passion for problem-solving, I am constantly refining my skills through hands-on projects and coursework. I thrive on the challenges that Data Science presents, leveraging every opportunity to delve deeper into the intricacies of this ever-evolving domain.I aim to not only expand my technical proficiency but also contribute meaningfully to the realm of data-driven insights and solutions."
   ],
@@ -111,7 +111,7 @@ const techStack = {
       ]
     },
     {
-      Stack: "Frameworks and Tools : Amazon Web Services(AWS), Git, Tensorflow, Bootstrap, Flask, RestAPI, Docker, Kubernetes",
+      Stack: "Frameworks and Tools : Amazon Web Services(AWS), Git, Tensorflow, Bootstrap, Flask, RestAPI, Docker, Kubernetes, SpringBoot",
       // progressPercentage: "70%"
       descBullets: [
         " Amazon Web Services(AWS)", "Git", "Tensorflow", "Bootstrap", "Flask", "RestAPI", "Docker", "Kubernetes",
@@ -186,6 +186,17 @@ const openSource = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Developer Intern",
+      company: "MessageGears",
+      companylogo: require("./assets/images/messagegears.jpeg"),
+      date: "August 2023 – Present",
+      descBullets: [
+        "Technology Stack: Java, SpringBoot, HTML, Redis, DynamoDB, PostgreSQL, AWS , JUnit",			        
+        "Accelerated data retrieval speed by 40s by developing a robust script to store and retrieve data from a Redis cache efficiently",
+        "Reduced data inconsistencies and downtime by 10% by implementing rigorous unit and integration testing framework",
+      ]
+    },
     {
       role: "Machine Learning Engineer Intern",
       company: "Rocket Mortgage",
