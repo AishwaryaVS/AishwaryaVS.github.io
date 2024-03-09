@@ -68,3 +68,49 @@
 //     order: 2;
 //   }
 // }
+// Assuming you are adding these styles to Progress.scss
+
+.skills-heading {
+    font-size: 56px;
+    font-weight: 400;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  
+  .skills-container > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  @media (max-width: 1380px) {
+    .skill {
+      padding-top: 0;
+    }
+    .skills-heading {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .skill {
+      padding-top: 0;
+    }
+    .skills-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  

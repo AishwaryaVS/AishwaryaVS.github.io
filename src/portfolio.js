@@ -22,11 +22,11 @@ const illustration = {
 const greeting = {
   username: "Aishwarya Vijaykumar Sheelvant",
   title: "Hi all, I'm Aishwarya",
-  subTitle: emoji(
+  subTitle: 
     "A grad student at Georgia Tech pursuing a Masters degree in Computer Science"
-  ),
+  ,
   resumeLink:
-    "https://drive.google.com/file/d/1xCs7eugIhY0wLY6C4ilzqanzQnXBrQIu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bwYqwUWDd8n7QLJLitCwh-DNNzLywTZq/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -42,11 +42,6 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Machine Learning / Data Science ",
-  skills: [
-    "As a dedicated student, I am fervently seeking opportunities to immerse myself in the dynamic field of Data Science. With an insatiable appetite for knowledge and a passion for problem-solving, I am constantly refining my skills through hands-on projects and coursework. I thrive on the challenges that Data Science presents, leveraging every opportunity to delve deeper into the intricacies of this ever-evolving domain.I aim to not only expand my technical proficiency but also contribute meaningfully to the realm of data-driven insights and solutions."
-  ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -142,7 +137,7 @@ const techStack = {
   //       "Data Science for Epidemiology",
   //       "Numerical Linear Algebra",
   //       "Advanced Internet Computing"],
-        display: true
+        // display: true
 };
 // Education Section
 
@@ -257,6 +252,28 @@ To know how to get github key look at readme.md */
 const bigProjects = {
   title: "Projects",
   projects: [
+    {
+      projectName: "Attack and Defense Techniques on LLM’s",
+      projectDesc: "Preserved 85% post-attack accuracy on language understanding tasks by building an ensemble-based defense system to protect BERT models against 10+ categories of textual adversarial attacks. Engineered a testing framework to evaluate language model robustness against test cases from the open-source TextAttack library",
+      // footerLink: [
+      //   {
+      //     name: "Github Link",
+      //     url: "https://github.com/AishwaryaVS/Sparse-Recommendation-System-Analysis"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      projectName: "Stove Top Mointer Android App",
+      projectDesc: "Decreased kitchen accidents and energy wastage by 20% by instantly updating stovetop status by engineering real-time data synchronization system using Firebase. Increased user engagement by 15% by integrating smart home APIs into Android app, creating a comprehensive home safety solution enabling stove monitoring control alongside other smart home devices.",
+      // footerLink: [
+      //   {
+      //     name: "Github Link",
+      //     url: "https://github.com/AishwaryaVS/Sparse-Recommendation-System-Analysis"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
     {
       projectName: "Sparse Recommendation System Analysis: A Study of  MultiVAE and EASE Algorithms",
       projectDesc: "Implemented Deep Learning recommendation models: MultiVAE and EASE, achieving an accuracy of 70%.Investigated the computational efficiency and scalability of the algorithms for large-scale datasets of size 20 million. Technology Stack: Tensorflow, Python, Jupyter Notebook",
