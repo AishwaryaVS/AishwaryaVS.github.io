@@ -23,7 +23,7 @@ const greeting = {
   username: "Aishwarya Vijaykumar Sheelvant",
   title: "Hi all, I'm Aishwarya",
   subTitle: 
-    "A grad student at Georgia Tech pursuing a Masters degree in Computer Science"
+    "A grad student at Georgia Tech with a Masters degree in Computer Science"
   ,
   resumeLink:
     "https://drive.google.com/file/d/1bwYqwUWDd8n7QLJLitCwh-DNNzLywTZq/view?usp=sharing", // Set to empty to hide the button
@@ -185,7 +185,7 @@ const workExperiences = {
       role: "Software Developer Intern",
       company: "MessageGears",
       companylogo: require("./assets/images/messagegears.jpeg"),
-      date: "August 2023 – Present",
+      date: "August 2023 – May 2024",
       descBullets: [
         "Technology Stack: Java, SpringBoot, HTML, Redis, DynamoDB, PostgreSQL, AWS , JUnit",			        
         "Accelerated data retrieval speed by 40s by developing a robust script to store and retrieve data from a Redis cache efficiently",
@@ -252,6 +252,17 @@ To know how to get github key look at readme.md */
 const bigProjects = {
   title: "Projects",
   projects: [
+    {
+      projectName: "Live Traffic Camera Analysis for Improved Navigation",
+      projectDesc: "Developed a RESTful Flask server to identify traffic cameras on specified routes using 511GA, perform real-time object detection on live camera feeds using YOLOv5 and Faster R-CNN, and implement data flow to compress and display annotated frames with vehicle counts.",
+      footerLink: [
+        {
+          name: "Github Link",
+          url: "https://github.gatech.edu/asheelvant3/ComputerVision_report.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       projectName: "Attack and Defense Techniques on LLM’s",
       projectDesc: "Preserved 85% post-attack accuracy on language understanding tasks by building an ensemble-based defense system to protect BERT models against 10+ categories of textual adversarial attacks. Engineered a testing framework to evaluate language model robustness against test cases from the open-source TextAttack library",
