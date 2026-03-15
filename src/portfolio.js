@@ -23,7 +23,7 @@ const greeting = {
   username: "Aishwarya Vijaykumar Sheelvant",
   title: "Hi all, I'm Aishwarya",
   subTitle: 
-    "A grad student at Georgia Tech with a Masters degree in Computer Science"
+    "AI & Backend Software Engineer at building enterprise ML platforms, GenAI applications, and scalable data systems"
   ,
   resumeLink:
     "https://drive.google.com/file/d/1bwYqwUWDd8n7QLJLitCwh-DNNzLywTZq/view?usp=sharing", // Set to empty to hide the button
@@ -62,10 +62,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -150,12 +146,15 @@ const educationInfo = {
       duration: "August 2022 - May 2024",
       desc: "Relevant courses",
       descBullets: [
+        "Computer Vision",
+        "Android App development",
         "Big Data System and Analytics",
         "Computational Data Analytics",
         "Natural Language Processing",
         "Data Science for Epidemiology",
         "Numerical Linear Algebra",
-        "Advanced Internet Computing"
+        "Advanced Internet Computing",
+        
       ]
     },
     {
@@ -181,6 +180,18 @@ const openSource = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Developer",
+      company: "c3.ai",
+      companylogo: require("./assets/images/C3ai_logo.svg.png"),
+      date: "December 2024 – Present",
+      descBullets: [
+        "Architected and delivered 2+ enterprise-grade deployments, owning the full SDLC across distributed ETL and ML feature pipelines, and production-ready microservices using C3 AI Framework",
+        "Built a custom GenAI and React-based automated reporting feature integrated with an ESG NLP scoring pipeline, enabling real-time analysis of stakeholder disclosures and improving the client’s global ESG ranking from 7th to 3rd.",
+        "Engineered and deployed a React-based process-optimization dashboard integrating ML model outputs to analyze monthly chemical consumption and energy patterns, resulting in $1M annual electricity cost reduction.",
+        "Designed scalable REST ingestion services for high-volume external datasets handling pagination, rate limits, retries, and schema validation to process 700K+ records annually per source."
+      ]
+    },
     {
       role: "Software Developer Intern",
       company: "MessageGears",
