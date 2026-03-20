@@ -26,7 +26,7 @@ const greeting = {
     "AI & Backend Software Engineer at building enterprise ML platforms, GenAI applications, and scalable data systems"
   ,
   resumeLink:
-    "https://drive.google.com/file/d/1bwYqwUWDd8n7QLJLitCwh-DNNzLywTZq/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Omwri-pq-Zz5jhsKadR_78YoB-zwI4Qn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
